@@ -14,7 +14,7 @@ if (process.env.NODE_ENV !== 'production') {
   app.use(morgan('dev'))
 }
 
-const user = require('./src/routes/userroute')
+const user = require('./src/routes/user')
 const snacks = require('./src/routes/snacks');
 const auth = require('./src/routes/auth')
 
